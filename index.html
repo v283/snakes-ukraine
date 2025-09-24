@@ -1,23 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <title>Змії України</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Змії України — Головна</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Caveat:wght@700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Курсова: інформаційний сайт про змій, що мешкають в Україні — фото, опис, місця спостереження." />
 </head>
 <body>
-  <header>
-    <h1>Змії України</h1>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="header-left">
+        <img src="assets/logo.png" alt="Лого — змія" class="logo" onerror="this.style.display='none'">
+        <div>
+          <div class="site-title">Змії України</div>
+          <div style="font-size:0.78rem;color:rgba(255,255,255,0.9);margin-top:2px">Курсова робота — презентація видів та місць</div>
+        </div>
+      </div>
+
+      <nav class="nav" role="navigation" aria-label="Головне меню">
+        <a href="index.html">Головна</a>
+        <a href="midyanka.html">Мідянка</a>
+        <a href="stepova.html">Степова змія</a>
+        <a href="vipera-nikolskii.html">Гадюка нікольського</a>
+        <a href="vuzh-zvychaynyi.html">Вуж звичайний</a>
+        <a href="poloz-lisovyi.html">Полоз лісовий</a>
+        <a href="vodyanyi-vuzh.html">Водяний вуж</a>
+        <a href="novochervyshchanskyi.html">Новочервищанський заказник</a>
+      </nav>
+    </div>
   </header>
-  <nav>
-    <a href="index.html">Головна</a>
-    <a href="vipera.html">Гадюки</a>
-    <a href="coronella.html">Мідянка</a>
-  </nav>
-  <main>
-    <h2>Вступ</h2>
-    <p>На території України мешкає кілька видів змій. Деякі з них отруйні, інші – ні. На цьому сайті зібрана коротка інформація про найвідоміших представників.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Vipera_berus_2007_03_23.jpg" alt="Гадюка звичайна">
+
+  <main class="container" role="main">
+    <section class="hero">
+      <div class="card">
+        <h2>Проєкт — змії України</h2>
+        <p>Короткий сайт для курсової: фото, стислий опис, де зустріти, як впізнати та як поводитися у випадку зустрічі. Дизайн тематичний — “зміїна” палітра, текстури та картки.</p>
+
+        <div class="grid">
+          <div class="card">
+            <div class="thumb"><img src="images/midyanka.jpg" alt="Мідянка — ілюстрація" data-fallback="images/midyanka.jpg"></div>
+            <h3><a href="midyanka.html">Мідянка (Coronella austriaca)</a></h3>
+            <p>Невелика неотруйна змія, часто помилково сприймається за гадюку.</p>
+          </div>
+
+          <div class="card">
+            <div class="thumb"><img src="images/stepova.jpg" alt="Степова змія" data-fallback="images/stepova.jpg"></div>
+            <h3><a href="stepova.html">Степова змія</a></h3>
+            <p>Теплолюбні види, що населяють відкриті степові ділянки.</p>
+          </div>
+
+          <div class="card">
+            <div class="thumb"><img src="images/vipera-nikolskii.jpg" alt="Гадюка нікольського" data-fallback="images/vipera-nikolskii.jpg"></div>
+            <h3><a href="vipera-nikolskii.html">Гадюка нікольського</a></h3>
+            <p>Отруйна гадюка, має локальне поширення — звертайте увагу на попереджувальні знаки.</p>
+          </div>
+
+          <div class="card">
+            <div class="thumb"><img src="images/vuzh.jpg" alt="Вуж звичайний" data-fallback="images/vuzh.jpg"></div>
+            <h3><a href="vuzh-zvychaynyi.html">Вуж звичайний (Natrix natrix)</a></h3>
+            <p>Часто зустрічається поблизу води; неотруйний, харчується амфібіями.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="shell">
+          <!-- Заміни на своє головне фото або логотип-ілюстрацію -->
+          <img src="images/reserve.jpg" alt="Природа — ілюстрація" data-fallback="images/reserve.jpg">
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:18px">
+      <div class="card">
+        <h3 style="margin-top:0">Швидкі поради при зустрічі зі змією</h3>
+        <ul>
+          <li>Не панікуй: повільно відійди на безпечну відстань.</li>
+          <li>Не намагайся ловити або провокувати — особливо отруйну.</li>
+          <li>Якщо отримано укус — терміново звернись до медиків; пам'ятай основи першої допомоги (не застосовувати народні методи без поради фахівців).</li>
+        </ul>
+        <p style="color:var(--muted);font-size:0.92rem;margin-top:8px">Ці поради загальні — для конкретних сценаріїв дивись місцеві інструкції та джерела.</p>
+      </div>
+    </section>
+
+    <section style="margin-top:18px">
+      <div class="card">
+        <h3 style="margin-top:0">Галерея — додай свої фото</h3>
+        <div class="grid">
+          <div class="card"><div class="thumb"><img src="images/polоз.jpg" alt="Полоз" data-fallback="images/poloz.jpg"></div><h3>Полоз лісовий</h3></div>
+          <div class="card"><div class="thumb"><img src="images/vodyanyi-vuzh.jpg" alt="Водяний вуж" data-fallback="images/vodyanyi-vuzh.jpg"></div><h3>Водяний вуж</h3></div>
+          <div class="card"><div class="thumb"><img src="images/stepova.jpg" alt="Степова" data-fallback="images/stepova.jpg"></div><h3>Степова змія</h3></div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      © 2025 — Курсова робота. Рекомендую додати власні фото (папка /images) та своє лого (assets/logo.png).<br>
+      Деплой: залий репозиторій на GitHub → увімкни GitHub Pages (branch main → root).
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
