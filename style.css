@@ -238,14 +238,14 @@ header.site-header{
   border:1px solid rgba(0,0,0,0.04);
 }
 .card .thumb{
-  width:100%;
+  width:auto;
   height:160px;
   border-radius:10px;
   overflow:hidden;
   background:linear-gradient(180deg, rgba(24,89,43,0.02), rgba(71,176,75,0.02));
 }
 .card .thumb img{
-  width:100%;
+  width:auto;
   height:100%;
   object-fit:cover;
   display:block;
